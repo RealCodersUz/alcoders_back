@@ -57,7 +57,7 @@ const ProductsSchema = new mongoose.Schema(
     type: {
       type: mongoose.SchemaTypes.String,
       required: true,
-      enum: ["premium", "standart"],
+      enum: ["premium", "standard"],
     },
     discount: {
       type: mongoose.SchemaTypes.Number,
